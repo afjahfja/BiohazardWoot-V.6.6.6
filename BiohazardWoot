@@ -1,0 +1,34 @@
+//BiohazardWoot V.6.6.6
+API.chatLog("BiohazardWoot V.6.6.6 ON")
+
+var voto = true;
+
+function autowoot (obj){
+if(voto){
+     $("#woot").click():
+}
+}
+
+function desligar(){
+  API.off(API.CAHT_COMMAND,command);
+  API.off(API.DJ_ADVANCE,autowoot);
+}
+
+API.on(CAHT_COMMAND,comandos){
+function command(value){
+        switch(value)
+        {
+
+        case "/woot on":
+        API.chatLog(":warning: BiohazardWoot V.6.6.6 Ligado :warning:");
+        var voto = true;
+        break;
+
+        case "/woot off":
+         API.chatLog(":warning: BiohazardWoot V.6.6.6 Desligado :warning:");
+         var voto = false;
+         break;
+
+         case "/desl":
+          API.chatLog(":warning: BiohazardWoot V.6.6.6 Offline :warning:");
+          
